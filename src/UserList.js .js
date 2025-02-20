@@ -12,6 +12,7 @@ export default function UserList ({listOfUSer}) {
                     <p><span>Completed: </span>{e.completed? 'true':'false'}</p>
                 </div>
             ))
+            
         }
     </div>
   )
