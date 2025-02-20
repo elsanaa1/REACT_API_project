@@ -11,7 +11,7 @@ function App() {
     axios.get('https://jsonplaceholder.typicode.com/todos/')        
         .then(response => setListOfUSer(response.data))
         .catch(error => {
-          console.error('Error fetching data:', error);
+          console.error('Error fetching data:',error);
         });
   },[])
   return (
